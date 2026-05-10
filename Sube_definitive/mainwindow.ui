@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QMdiArea" name="mdiArea">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>801</width>
+      <height>571</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuArchivo">
+    <property name="title">
+     <string>Archivo</string>
+    </property>
+    <addaction name="actionslair"/>
+   </widget>
+   <widget class="QMenu" name="menuFunciones">
+    <property name="title">
+     <string>Funciones</string>
+    </property>
+    <addaction name="actionAlta"/>
+    <addaction name="actionListado"/>
+    <addaction name="actionCargar_Saldo"/>
+    <addaction name="actionListado_Viajes"/>
+    <addaction name="actionPagar_Boleto"/>
+   </widget>
+   <addaction name="menuArchivo"/>
+   <addaction name="menuFunciones"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionslair">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::WindowClose"/>
+   </property>
+   <property name="text">
+    <string>Salir</string>
+   </property>
+  </action>
+  <action name="actionAlta">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::ListAdd"/>
+   </property>
+   <property name="text">
+    <string>Alta</string>
+   </property>
+  </action>
+  <action name="actionListado">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::FormatJustifyFill"/>
+   </property>
+   <property name="text">
+    <string>Listado</string>
+   </property>
+  </action>
+  <action name="actionCargar_Saldo">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::DocumentSave"/>
+   </property>
+   <property name="text">
+    <string>Cargar Saldo</string>
+   </property>
+  </action>
+  <action name="actionPagar_Boleto">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::GoHome"/>
+   </property>
+   <property name="text">
+    <string>Pagar Boleto</string>
+   </property>
+  </action>
+  <action name="actionListado_Viajes">
+   <property name="icon">
+    <iconset theme="QIcon::ThemeIcon::FormatIndentMore"/>
+   </property>
+   <property name="text">
+    <string>Listado Viajes</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
