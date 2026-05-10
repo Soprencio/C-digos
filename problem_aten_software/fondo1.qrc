@@ -1,0 +1,10 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>img123</file>
+        <file>img222.jpg</file>
+        <file>img333.jpg</file>
+        <file>Captura desde 2024-11-13 15-36-59.png</file>
+        <file>logo.png</file>
+        <file>logo2.png</file>
+    </qresource>
+</RCC>
